@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Assignment 3</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="css/animate.css" rel="stylesheet">
+   </head>
+   <body>
+    <div id="titleblock">
+         <h1>Animation Game</h1>
+         <h3 id="failurestitle">No of failures:</h3>
+         <h3 id="failurescount">0</h3>
+         <h3 id="mystarrating"></h3>
+         <button id="mybutton" type="button" onclick="Reset()">Reset</button>
+         <div ><h1 id="mytimer">Timer: 00:00</h1>
+               <h3 id="readme"><a href="Readme.pdf" target="_blank">Game Instructions </a></h3>
+         </div>
+      </div>
+      <div id="playground" class="container-fluid"> </div>
+      <div id="mymodal" class="modal">
+               <!-- Modal content -->
+            <div class="modal-content">
+                <p>Congratulations... You Won</p>
+                <p id="playtime"></p>
+                <p id="failcount"></p>
+                <p id="starrating"></p>
+                <div class="replay">
+                  <p>Would You Like To Play Again?</p>
+                  <button onclick="Reset()">Yes</button>
+                  <button>No</button>
+                </div>
+            </div>
+        </div>
+   </body>
+   <script src="js/movableObjects.js"> </script>
+   <script src="js/animate.js"> </script>
+</html>
