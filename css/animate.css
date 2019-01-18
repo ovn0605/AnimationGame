@@ -1,93 +1,105 @@
 
 .frame {
-   background-color: blue;
-   /*display: inline-block;*/
-   height: 150px;
-	width: 100%;
-	border: solid 1px;
-	margin-top: 1px;
-	}
-.pavementframe{
-	background-color: grey;
+    background-color: blue;
+    /*display: inline-block;*/
+    height: 150px;
+    width: 100%;
+    border: solid 1px;
+    margin-top: 1px;
 }
 
-.grassframe{
-	background-color: green;	
-}
-.col-xs-2{
-	padding: 1px;
+.pavementframe {
+    background-color: grey;
 }
 
-.gameheader{
-   text-align: center;
+.grassframe {
+    background-color: green;
 }
 
-.bugclass{
-	position: absolute;
-	z-index:1;
+.col-xs-2 {
+    padding: 1px;
 }
 
-.playerclass{
-	position: absolute;
-	/*z-index:1;*/
+.gameheader {
+    text-align: center;
+}
+
+.bugclass {
+    position: absolute;
+    z-index: 1;
+}
+
+.playerclass {
+    position: absolute;
+    /*z-index:1;*/
 }
 
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 35%; /* Full width */
-  height: 40%; 
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-       }
- 
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 35%;
+    /* Full width */
+    height: 40%;
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
 .modal-content {
-  background-color: #fe0000;
-  margin: 5% auto; /* 5% from the top and centered */
-  padding: 2px;
-  border: 1px solid #888;
-  width: 90%; /* Could be more or less, depending on screen size */
-  height: 90%;
-               }
+    background-color: #fe0000;
+    margin: 5% auto;
+    /* 5% from the top and centered */
+    padding: 2px;
+    border: 1px solid #888;
+    width: 90%;
+    /* Could be more or less, depending on screen size */
+    height: 90%;
+}
 
 
 /*The Yes-No Buttons in the Modal*/
 .replay {
-  color: #aaa;
-  font-weight: bold;
-  text-align: center;
-  }
-
-
-#titleblock{
-  text-align: center;
-}
-#failurestitle{
-  display:inline-block;
-           }
-
-#failurescount{
-  display:inline-block;
-           }
-
-#mybutton{
-  margin-left:50px;
-   display:inline-block;
+    color: #aaa;
+    font-weight: bold;
+    text-align: center;
 }
 
-#mystarrating{
-   display:inline-block;
+
+#titleblock {
+    text-align: center;
 }
 
-#mytimer{
-  display:inline-block;
+#failurestitle {
+    display: inline-block;
 }
 
-#readme{
-  display:inline-block;
-  margin-left:50px;
+#failurescount {
+    display: inline-block;
+}
+
+#mybutton {
+    margin-left: 50px;
+    display: inline-block;
+}
+
+#mystarrating {
+    display: inline-block;
+}
+
+#mytimer {
+    display: inline-block;
+}
+
+#readme {
+    display: inline-block;
+    margin-left: 50px;
 }
